@@ -1,0 +1,97 @@
+{
+    "name": "Relaxing Fantasy Theme",
+    "description": "A mod to add relaxing music and ambiance without unessisary noise to Opera GX",
+    "developer":
+    {
+        "name": "Thund3r"
+    },
+    "icons":
+    {
+        "512": "FantasyRiver_512.png"
+    },
+    "manifest_version": 3,
+    "mod":
+    {
+        "license": "license.txt",
+        "payload":
+        {
+            "background_music":
+            [
+                "music/RelaxingMusicMix3.mp3"
+            ],
+            "browser_sounds":
+            {
+                "FEATURE_SWITCH_OFF":
+                [
+                    "sound/DEEP_water_drop2.mp3"
+                ],
+                "FEATURE_SWITCH_ON":
+                [
+                    "sound/water_drop2.mp3"
+                ],
+                "LEVEL_UPGRADE":
+                [
+                    "sound/splash1.mp3"
+                ],
+                "LIMITER_OFF":
+                [
+                    "sound/DEEP_very_quiet_bell_ring.mp3"
+                ],
+                "LIMITER_ON":
+                [
+                    "sound/very_quiet_bell_ring.mp3"
+                ]
+            },
+            "theme":
+            {
+                "dark":
+                {
+                    "gx_accent":
+                    {
+                        "h": 132,
+                        "s": 85,
+                        "l": 42
+                    },
+                    "gx_secondary_base":
+                    {
+                        "h": 181,
+                        "s": 100,
+                        "l": 60
+                    }
+                },
+                "light":
+                {
+                    "gx_accent":
+                    {
+                        "h": 86,
+                        "s": 43,
+                        "l": 29
+                    },
+                    "gx_secondary_base":
+                    {
+                        "h": 66,
+                        "s": 19,
+                        "l": 62
+                    }
+                }
+            },
+            "wallpaper":
+            {
+                "dark":
+                {   
+                    "image": "wallpaper/Forest_River_by_VickyBawangun_Upscaled_0-15.png",
+                    "text_color": "#FFFFFF",
+                    "text_shadow": "#757575"
+                },
+                "light":
+                {
+                    "image": "wallpaper/Calm_of_Nature_by_Xmrfel.jpg",
+                    "text_color": "#FFFFFF",
+                    "text_shadow": "#757575"
+                }
+            }
+        },
+        "schema_version": 1
+    },
+    "version": "1.0"
+}
