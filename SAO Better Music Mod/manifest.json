@@ -1,0 +1,26 @@
+{
+    "name": "SAO Background Music",
+    "description": "2 Relaxing Sword Art Online songs for background music (Without reverb caused by vertical remixing)",
+    "developer":
+    {
+        "name": "Thund3r"
+    },
+    "icons":
+    {
+        "512": "SAOmod_512.png"
+    },
+    "manifest_version": 3,
+    "mod":
+    {
+        "license": "license.txt",
+        "payload":
+        {
+            "background_music":
+            [
+                "music/Gracefully&TinyLove.mp3"
+            ]    
+        },
+        "schema_version": 1
+    },
+    "version": "1.1"
+}
